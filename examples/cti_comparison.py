@@ -16,6 +16,8 @@ from quantile_forest import RandomForestQuantileRegressor
 from chr.methods import CHR
 from chr.black_boxes import QNet, QRF
 from chr.utils import evaluate_predictions
+from common.dataset import build_reg_data
+from common.utils import build_regression_model
 
 
 def save_results(results_df, filename):
